@@ -37,7 +37,7 @@ fun RenderGif(url: String) {
             .padding(4.dp)
             .fillMaxSize()
             .aspectRatio(1f),
-        shape = MaterialTheme.shapes.large,
+        shape = MaterialTheme.shapes.extraLarge,
         elevation = CardDefaults.cardElevation(defaultElevation = 8.dp)
     ) {
         AsyncImage(
