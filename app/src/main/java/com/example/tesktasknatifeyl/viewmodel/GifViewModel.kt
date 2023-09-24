@@ -25,9 +25,10 @@ class GifViewModel : ViewModel() {
         getItems()
     }
 
-    fun getItems() {
+    private fun getItems() {
         viewModelScope.launch {
             itemUiState = ItemUiState.Loading
+
             itemUiState = try {
                 ItemUiState.Success(GiphyApi.retrofitService.getItems())
             } catch (e: IOException) {
