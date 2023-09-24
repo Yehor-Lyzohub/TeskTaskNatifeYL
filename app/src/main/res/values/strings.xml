@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TeskTaskNatifeYL</string>
+    <string name="welcome">Welcome to Giphy App!"</string>
+    <string name="gif_description">Gif image</string>
+    <string name="loading">Loading</string>
+    <string name="error_description">Error</string>
+    <string name="failed_to_load">Failed to load</string>
+    <string name="refresh">Refresh</string>
 </resources>

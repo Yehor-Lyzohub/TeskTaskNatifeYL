@@ -1,4 +1,4 @@
-package com.example.tesktasknatifeyl.data
+package com.example.tesktasknatifeyl.model
 
 import kotlinx.serialization.Serializable
 
